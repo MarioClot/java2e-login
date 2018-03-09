@@ -12,7 +12,7 @@
 </head>
 <body>
 
-<form action="/login">
+<form action="/login" method="post">
     Login
     nom <input type="text" name="nom"/><br>
     password <input type="text" name="password"/><br>

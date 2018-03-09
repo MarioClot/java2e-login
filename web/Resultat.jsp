@@ -12,7 +12,7 @@
 </head>
 <body>
 
-    <jsp:useBean id="jugador" type="edu.fje.daw2.Jugador" scope="request"></jsp:useBean>
+    <jsp:useBean id="jugador" type="edu.fje.daw2.JugadorBean" scope="request"></jsp:useBean>
     <%--jsp:getProperty name="persona" property="nom" />
     <jsp:getProperty name="persona" property="numFills" />
     <jsp:getProperty name="persona" property="casat" /--%>

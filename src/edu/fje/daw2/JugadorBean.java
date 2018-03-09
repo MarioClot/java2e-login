@@ -11,7 +11,7 @@ import java.util.ArrayList;
  *
  * @author sergi
  */
-public class Jugador implements Serializable{
+public class JugadorBean implements Serializable{
     private String nom;
     private String password;
     private ArrayList peces;
@@ -40,9 +40,13 @@ public class Jugador implements Serializable{
         this.password = password;
     }
 
-    public Jugador(String nom, String password) {
+    public JugadorBean(String nom, String password) {
         this.nom = nom;
         this.password = password;
+    }
+
+    public JugadorBean(){
+
     }
 
 }

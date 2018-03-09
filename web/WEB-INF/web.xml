@@ -5,16 +5,18 @@
          version="3.1">
     
     <welcome-file-list>
-        <welcome-file>index.jsp</welcome-file>
+        <welcome-file>login.jsp</welcome-file>
     </welcome-file-list>
     
     <servlet>
         <servlet-name>PaginaInicial</servlet-name>
-        <servlet-class>edu.fje.daw2.Inici</servlet-class>
+        <servlet-class>edu.fje.daw2.LoginController</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>PaginaInicial</servlet-name>
-        <url-pattern>/home</url-pattern>
+        <url-pattern>/login</url-pattern>
     </servlet-mapping>
+
+
 
 </web-app>

@@ -16,13 +16,13 @@ passats a la JSP i posteriorment les consulta
 </head>
 <body>
 
-<jsp:useBean id="persona1" class="edu.fje.daw2.Jugador"></jsp:useBean>
+<jsp:useBean id="persona1" class="edu.fje.daw2.JugadorBean"></jsp:useBean>
 <jsp:setProperty name="persona1" property="nom" param="nom1" />
 <jsp:setProperty name="persona1" property="numFills" param="numFills1" />
 <jsp:setProperty name="persona1" property="casat" param="casat1" />
 
 
-<jsp:useBean id="persona2" class="edu.fje.daw2.Jugador"></jsp:useBean>
+<jsp:useBean id="persona2" class="edu.fje.daw2.JugadorBean"></jsp:useBean>
 <jsp:setProperty name="persona2" property="*" />
 
 
