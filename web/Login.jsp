@@ -13,6 +13,7 @@
 <body>
 
 <form action="/login">
+    Login
     nom <input type="text" name="nom"/><br>
     password <input type="text" name="password"/><br>
     <input type="submit" value="envia"/>
