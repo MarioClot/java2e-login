@@ -11,10 +11,9 @@ import java.util.ArrayList;
  *
  * @author sergi
  */
-public class JugadorBean implements Serializable{
+public class FiguraBean implements Serializable{
     private String nom;
-    private String password;
-    private ArrayList peces;
+    private String valor;
 
     public String getNom() {
         return nom;
@@ -24,20 +23,20 @@ public class JugadorBean implements Serializable{
         this.nom = nom;
     }
 
-    public String getPassword() {
-        return password;
+    public String getValor() {
+        return valor;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public void setValor(String valor) {
+        this.valor = valor;
     }
 
-    public JugadorBean(String nom, String password) {
+    public FiguraBean(String nom, String valor) {
         this.nom = nom;
-        this.password = password;
+        this.valor = valor;
     }
 
-    public JugadorBean(){
+    public FiguraBean(){
 
     }
 

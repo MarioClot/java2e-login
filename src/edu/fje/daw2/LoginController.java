@@ -35,7 +35,6 @@ public class LoginController extends HttpServlet {
         if(LoginUtility.checkUser(request.getParameter("nom"),request.getParameter("password"))) {
             JugadorBean j = new JugadorBean(request.getParameter("nom"),
                     request.getParameter("password"));
-            //System.out.println("csvewf");
             request.setAttribute("jugador", j);
             RequestDispatcher rd = request.getRequestDispatcher("Resultat.jsp");
             rd.forward(request, response);
@@ -43,7 +42,6 @@ public class LoginController extends HttpServlet {
             RequestDispatcher rd = request.getRequestDispatcher("login.jsp");
             rd.forward(request,response);
         }
-
     }
 }
 
