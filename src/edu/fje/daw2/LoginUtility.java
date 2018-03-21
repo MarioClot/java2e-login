@@ -13,7 +13,7 @@ public class LoginUtility {
 
     public static Map getUsers() {
         accounts = new HashMap<String, String>();
-        final File properties = new File("C:\\Users\\MarioAsus\\IdeaProjects\\Login\\src\\usuaris.properties");
+        final File properties = new File("C:\\Users\\MarioAdmin\\IdeaProjects\\Login\\src\\usuaris.properties");
 
         BufferedReader br = null;
         try{
