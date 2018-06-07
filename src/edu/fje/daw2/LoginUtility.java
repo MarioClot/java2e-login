@@ -15,8 +15,8 @@ public class LoginUtility {
         accounts = new HashMap<String, String>();
         //final File properties = new File("C:\\Users\\MarioAdmin\\IdeaProjects\\Login\\src\\usuaris.properties");
         String pathMario = "C:/Users/MarioAsus/IdeaProjects/Login/src/usuaris.properties";
-        String pathCarlos = "/home/caroga/JavaEnterprise/java2e-login-master/src/usuaris.properties";
-        final File properties = new File(pathMario);
+        String pathCarlos = "/home/caroga/JavaEnterprise/java2e-login/src/usuaris.properties";
+        final File properties = new File(pathCarlos);
 
         BufferedReader br = null;
         try{
