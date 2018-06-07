@@ -13,13 +13,14 @@ public class LoginUtility {
 
     public static Map getUsers() {
         accounts = new HashMap<String, String>();
-        final File properties = new File("C:\\Users\\MarioAdmin\\IdeaProjects\\Login\\src\\usuaris.properties");
+        //final File properties = new File("C:\\Users\\MarioAdmin\\IdeaProjects\\Login\\src\\usuaris.properties");
+        String pathMario = "C:/Users/MarioAsus/IdeaProjects/Login/src/usuaris.properties";
+        String pathCarlos = "/home/caroga/JavaEnterprise/java2e-login-master/src/usuaris.properties";
+        final File properties = new File(pathMario);
 
         BufferedReader br = null;
         try{
             br = new BufferedReader(new FileReader(properties));
-
-            //br.readLine();// you don't need the first line
 
             while (true)
             {
