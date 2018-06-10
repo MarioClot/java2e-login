@@ -28,7 +28,7 @@
                         <c:set var="cell_color" value="white" />
                     </c:otherwise>
                 </c:choose>
-                <td bgcolor="${cell_color}"></td>
+                <td bgcolor="${cell_color}" width="70" height="70" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
                 <c:set var="count" value="${count + 1}"/>
             </c:forEach>
         </tr>

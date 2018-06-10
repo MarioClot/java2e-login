@@ -16,7 +16,7 @@ public class LoginUtility {
         //final File properties = new File("C:\\Users\\MarioAdmin\\IdeaProjects\\Login\\src\\usuaris.properties");
         String pathMario = "C:/Users/MarioAsus/IdeaProjects/Login/src/usuaris.properties";
         String pathCarlos = "/home/caroga/JavaEnterprise/java2e-login/src/usuaris.properties";
-        final File properties = new File(pathCarlos);
+        final File properties = new File(pathMario);
 
         BufferedReader br = null;
         try{
